@@ -11,5 +11,8 @@ variable "private_cidr_block" {
 }
 variable "environment" {}
 variable "service_ports" {
-  type = list(number)
+  type    = list(number)
+  default = [22, 80, 443, 8080, 8443, 3306, 5432, 6379, 27017, 5000, 5001]
 }
+
+variable "amis" {}
