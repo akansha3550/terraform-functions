@@ -8,6 +8,6 @@ private_cidr_block = ["172.18.10.0/24", "172.18.20.0/24", "172.18.30.0/24"]
 environment        = "dev"
 service_ports      = [22, 80, 443, 8080, 8443, 3306, 5432, 6379, 27017, 5000, 5001]
 amis = {
-  us-east-1 = "ami-084568db4383264d4"
-  us-east-2 = "ami-04f167a56786e4b09"
+  us-east-1 = "xxxxxxxxxx"
+  us-east-2 = "xxxxxxxxxx"
 }
